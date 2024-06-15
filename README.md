@@ -1,25 +1,34 @@
-# exploratory data analysis
-# EDA Analysis
-This project contains an Exploratory Data Analysis (EDA) of a Marketing Analysis dataset (Marketing_Analysis.csv) and a Netflix Dataset (netflix_titles.csv). The analysis is performed in a Jupyter Notebook named eda.ipynb.
+# DATA MIGRATION
+# Data Migration Pipelines
 
-## Dataset
-The datasets used in this analysis are Marketing_Analysis.csv and netflix_titles.csv. They contain data that was used for the analyses.
+This repository contains Python pipeline files for migrating data to Google BigQuery from MongoDB and AWS.
 
-## Analysis
-The analysis is performed in the Jupyter Notebook file called eda.ipynb. It includes various data exploration techniques and visualizations to gain insights into the datasets.
+## Description
+The repository includes two Python files:
+
+mongodb_pipeline.py: A pipeline for migrating data from MongoDB to Google BigQuery.
+mysql_pipeline.py: A pipeline for migrating data from AWS (via MySQL) to Google BigQuery. Each Python file represents a separate data migration pipeline and demonstrates an instance of migrating data to BigQuery from different data sources.
 
 ## Files
-* Marketing_Analysis.csv: The dataset used for analysis.
-* netflix_titles.csv: The dataset used for analysis.
-* eda.ipynb: Jupyter Notebook file containing the EDA code.
+* mongo_db_pipeline.py: Contains the pipeline for migrating data from MongoDB to BigQuery.
+* mysql_pipeline.py: Contains the pipeline for migrating data from AWS (MySQL) to BigQuery.
 ## Usage
-To run the analysis:
+To use the data migration pipelines:
 
-* Ensure you have Python and Jupyter Notebook installed.
-* Clone this repository to your local machine.
-* Navigate to the directory where the repository is cloned.
-* Open eda.ipynb in Jupyter Notebook.
+* Make sure you have access to Google BigQuery and the necessary credentials.
+* Review the configuration settings in each Python file to ensure they match your environment.
+* Run the respective Python file (mongodb_pipeline.py or mysql_pipeline.py) using Python 3.x. Follow the prompts and instructions provided   in the pipeline script to initiate the data migration process.
 Follow the instructions in the notebook to execute the analysis.
+
+## Dependencies
+Python 3.x
+Required Python libraries (specified in each pipeline file)
 ## Contributors
 Damilola Akinsoju
 Feel free to contribute by submitting pull requests or opening issues.
+
+
+
+
+
+
