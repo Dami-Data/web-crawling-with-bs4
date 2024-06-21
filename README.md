@@ -7,7 +7,7 @@ This project showcases how to extract information from web pages using Beautiful
 
 ## File
 WEB_CRAWLING_WITH_BS4.ipynb: Jupyter Notebook file containing the web crawling code.
-Usage
+## Usage
 To run the web crawling code:
 
 * Ensure you have Python installed.
@@ -19,10 +19,10 @@ Contributors
 Damilola Akinsoju
 Feel free to contribute by submitting pull requests or opening issues.
 
-About
+## About
 A project for a client on Web Crawling using the BeautifulSoup4 (BS4) library in Python
 
-Resources
+## Resources
  Readme
  Activity
 Stars
